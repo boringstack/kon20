@@ -3,6 +3,17 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
+parts:
+  - caption: Themen
+    chapters:
+    - file: Themen/Allgemein
+      sections:
+      - file: Themen/Allgemein/Arten
+      - file: Themen/Allgemein/Grundlagen
+      - file: Themen/Allgemein/Normzahlen
+      - file: Themen/Allgemein/Allgemein
+    - file: Themen/ToleranzenPassungen
+      sections:
+      - file: Themen/ToleranzenPassungen/Toleranzen
+      - file: Themen/ToleranzenPassungen/Passungen
+      - file: Themen/ToleranzenPassungen/Oberfläche
